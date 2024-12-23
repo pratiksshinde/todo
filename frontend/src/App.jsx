@@ -66,6 +66,7 @@ function App() {
   };
 
   return (
+    <div>
     <div className='mainbody'>
       <h1>Todo App</h1>
       <input className='input'
@@ -101,6 +102,8 @@ function App() {
           </li>
         ))}
       </ul>
+      <h4> &#169;PratikShinde</h4>
+      </div>
     </div>
   );
 }
